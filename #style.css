@@ -1,0 +1,37 @@
+/*Style big to little*/
+body {
+    width: 850px;
+    margin: 0 auto;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 850px; 
+    height: 450px;
+    background-image: url(.space.jpg)
+}
+
+section{
+    display: flex; 
+    height: 324 px; 
+    margin: 0 auto; 
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(224, 222, 222);
+
+}
+
+article{
+    width: 270px;
+    height: 324px; 
+    background-color: rgb(224, 222, 222);
+
+}
+
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+    color: white; 
+}
+
